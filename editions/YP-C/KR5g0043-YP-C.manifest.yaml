@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0043/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5g0043/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 丹陽真人直言
+  date: '2015-08-29 02:49:24.283586'
+  source:
+    repository: kanripo
+    path: KR5g0043
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0043_000-YP-C.yaml, hash: 'sha256:bc7e868892bdfa51d8ca2c50786f95b923613b26b9d2ba74e2e7e05d8b6b6eb8'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0043_000-YP-C.markers.yaml, hash: 'sha256:5aa839d45add828d56c2d0373dc978ca4a9fb337aff21f2cf83b97e4730b5ae4'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0043_CK-KZ_01p026a
+    span:
+    - body
+    - 0
+    - 857
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:acc0074e4e073cc22ec224628e9f01df6a36c18778af957ebd922fafe9ffe2fa
